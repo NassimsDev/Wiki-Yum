@@ -1,11 +1,12 @@
-import "./App.css"
-
 function App() {
-  return (
-    <main>
-      <h1>Hello React</h1>
-    </main>
-  )
+    return (
+        <main>
+            <h1>
+                La plus grande difficulté de l'éducation, c'est
+                transformer les idées en expériences
+            </h1>
+        </main>
+    );
 }
 
-export default App
+export default App;
