@@ -1,0 +1,94 @@
+{
+  "mystery-box": [
+    {
+      "title": "La Joconde",
+      "images": [],
+      "pageLink": "https://fr.wikipedia.org/wiki/La_Joconde",
+      "shortQuestion": "Mona Lisa sourit-elle vraiment ?",
+      "description": "La Joconde, peinte par Léonard de Vinci entre 1503 et 1506, est l’un des tableaux les plus célèbres au monde. Son sourire énigmatique a fasciné des générations, en partie parce qu’il semble changer selon l’angle de vue et la perception de l’observateur. Léonard a utilisé la technique du sfumato, un fondu subtil entre les ombres et la lumière, pour créer une expression à la fois douce et mystérieuse. La peinture illustre également l’habileté exceptionnelle du maître dans la gestion de la perspective et des détails anatomiques, donnant une profondeur et un réalisme inégalés. Au-delà de l’art, le tableau a traversé les siècles en inspirant des études scientifiques sur la vision et la psychologie humaine, ainsi qu’en devenant un symbole culturel mondial.",
+      "anecdote": "Pendant longtemps, les gens ont débattu de la véritable identité du modèle et de son sourire. Le tableau a été volé du Louvre en 1911, ce qui a contribué à sa renommée mondiale et à son statut iconique.",
+      "theme": "Art",
+      "quiz": {
+        "question": "Quelle technique est utilisée ?",
+        "answers": [
+          {
+            "text": "Sfumato",
+            "correct": true
+          },
+          {
+            "text": "Fresque",
+            "correct": false
+          },
+          {
+            "text": "Gouache",
+            "correct": false
+          },
+          {
+            "text": "Tempera",
+            "correct": false
+          }
+        ]
+      }
+    },
+    {
+      "title": "Impressionnisme, la peinture qui capture la lumière",
+      "images": [],
+      "pageLink": "https://fr.wikipedia.org/wiki/Impressionnisme",
+      "shortQuestion": "Pourquoi les impressionnistes peignaient-ils si vite et en plein air ?",
+      "description": "L’impressionnisme est un mouvement artistique né en France dans la seconde moitié du XIXᵉ siècle. Il se concentre sur les effets fugitifs de lumière et de couleur plutôt que sur le réalisme exact des formes. Les artistes comme Claude Monet ou Pierre-Auguste Renoir privilégiaient les coups de pinceau rapides et visibles et les scènes de la vie quotidienne ou des paysages peints en plein air. Ce mouvement rejette les sujets académiques traditionnels pour mieux capturer l’instant, l’atmosphère et les nuances de la lumière.",
+      "anecdote": "Le nom “Impressionnistes” vient d’un critique moqueur qui trouvait leurs tableaux « inachevés »… et le mouvement a gardé ce surnom comme un badge d’honneur.",
+      "theme": "Art - Mouvement artistique",
+      "quiz": {
+        "question": "Qu’est-ce qui distingue l’impressionnisme ?",
+        "answers": [
+          {
+            "text": "Les coups de pinceau visibles et l’étude de la lumière",
+            "correct": true
+          },
+          {
+            "text": "La gravure sur métal",
+            "correct": false
+          },
+          {
+            "text": "La sculpture monumentale",
+            "correct": false
+          },
+          {
+            "text": "L’usage exclusif de la peinture à l’encre",
+            "correct": false
+          }
+        ]
+      }
+    },
+    {
+      "title": "La Ronde de nuit",
+      "images": [],
+      "pageLink": "https://fr.wikipedia.org/wiki/La_Ronde_de_nuit",
+      "shortQuestion": "Pourquoi le tableau \"La Ronde de Nuit\" de Rembrandt se déroule-t-il en plein jour ?",
+      "description": "C'est l'un des plus grands malentendus de l'histoire de l'art. Pendant des siècles, ce chef-d'œuvre de Rembrandt a été admiré pour son ambiance nocturne sombre et mystérieuse, ce qui lui a valu son titre universel de La Ronde de Nuit. En réalité, le tableau représente une sortie de milice sous un soleil éclatant.",
+      "anecdote": "Ce n'est qu'en 1947, lors d'une restauration majeure, que les experts ont découvert la vérité. Le tableau était simplement recouvert de multiples couches de vernis bitumineux et de poussière qui avaient noirci avec le temps, donnant l'illusion de la nuit. Une fois nettoyé, le ciel bleu et la lumière du jour sont réapparus. Mais le titre était devenu si célèbre qu'on a décidé de le garder, même s'il est techniquement faux.",
+      "theme": "Art",
+      "quiz": {
+        "question": "Quelle a été la véritable cause de l'aspect \"nocturne\" du tableau de Rembrandt ?",
+        "answers": [
+          {
+            "text": "Rembrandt l'a peint à la lueur d'une seule bougie.",
+            "correct": false
+          },
+          {
+            "text": "L'accumulation de vernis sale et de poussière au fil des siècles.",
+            "correct": true
+          },
+          {
+            "text": "La fumée des cigares des gardiens de musée qui a noirci la toile.",
+            "correct": false
+          },
+          {
+            "text": "C'était une demande spécifique de la milice pour paraître plus effrayante.",
+            "correct": false
+          }
+        ]
+      }
+    }
+  ]
+}
