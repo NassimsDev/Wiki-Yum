@@ -3,7 +3,7 @@
         "mystery": {
             "entry": {
                 "id": 1,
-                "imageDish": "../assets/img/dish-bug-informatique.png",
+                "imageDish": "../src/assets/img/dish-bug-informatique.png",
                 "imageWikipedia": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Sad_mac.png",
                 "title": "Bug informatique",
                 "pageLink": "https://fr.wikipedia.org/wiki/Bug_(informatique)",
@@ -23,7 +23,7 @@
             },
             "main": {
                 "id": 2,
-                "imageDish": "../assets/img/dish-ours-soldat.png",
+                "imageDish": "../src/assets/img/dish-ours-soldat.png",
                 "imageWikipedia": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Wojtek_the_bear.jpg",
                 "title": "Ours soldat",
                 "pageLink": "https://fr.wikipedia.org/wiki/Wojtek",
@@ -55,7 +55,7 @@
             },
             "dessert": {
                 "id": 3,
-                "imageDish": "../assets/img/dish-epidemie-dansante.png",
+                "imageDish": "../src/assets/img/dish-epidemie-dansante.png",
                 "imageWikipedia": "https://recherche.unistra.fr/fileadmin/upload/unistra/actualites/recherche/Danseurs_fous.jpg",
                 "title": "Épidémie dansante",
                 "pageLink": "https://fr.wikipedia.org/wiki/%C3%89pid%C3%A9mie_dansante_de_1518",
@@ -89,7 +89,7 @@
         "art": {
             "entry": {
                 "id": 4,
-                "imageDish": "../assets/img/dish-la-joconde.png",
+                "imageDish": "../src/assets/img/dish-la-joconde.png",
                 "imageWikipedia": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_natural_color.jpg/500px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_natural_color.jpg",
                 "title": "La Joconde",
                 "pageLink": "https://fr.wikipedia.org/wiki/La_Joconde",
@@ -109,7 +109,7 @@
             },
             "main": {
                 "id": 5,
-                "imageDish": "../assets/img/dish-impressionnisme.png",
+                "imageDish": "../src/assets/img/dish-impressionnisme.png",
                 "imageWikipedia": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Claude_Monet%2C_Impression%2C_soleil_levant.jpg/500px-Claude_Monet%2C_Impression%2C_soleil_levant.jpg",
                 "title": "Impressionnisme, la peinture qui capture la lumière",
                 "pageLink": "https://fr.wikipedia.org/wiki/Impressionnisme",
@@ -138,7 +138,7 @@
             },
             "dessert": {
                 "id": 6,
-                "imageDish": "../assets/img/dish-ronde-de-nuit.png",
+                "imageDish": "../src/assets/img/dish-ronde-de-nuit.png",
                 "imageWikipedia": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/The_Night_Watch_-_HD.jpg/500px-The_Night_Watch_-_HD.jpg",
                 "title": "La Ronde de nuit",
                 "pageLink": "https://fr.wikipedia.org/wiki/La_Ronde_de_nuit",
