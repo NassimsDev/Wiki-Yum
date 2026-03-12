@@ -1,15 +1,48 @@
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 html,
 body,
 #root {
-  min-height: 100%;
+    min-height: 100%;
 }
 
 body {
-  font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
+}
+
+.Quiz-Container {
+    background: white;
+    width: 90%;
+    max-width: 450px; 
+    padding: 20px;
+    border-radius: 20px;
+    /* box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); */
+    text-align: center;
+}
+
+.Quiz-Answers {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    width: 80%;
+    max-width: 400px;
+    margin: 20px auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.Quiz-Answers-Childs {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 18px; 
+    font-size: 18px;
+    border-radius: 12px;
+    cursor: pointer;
+    width: 100%; 
+    text-align: center;
 }

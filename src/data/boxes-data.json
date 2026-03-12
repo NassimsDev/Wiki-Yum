@@ -1,0 +1,173 @@
+{
+    "box": {
+        "mystery": {
+            "entry": {
+                "id": 1,
+                "imageDish": "../assets/img/dish-bug-informatique.png",
+                "imageWikipedia": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Sad_mac.png",
+                "title": "Bug informatique",
+                "pageLink": "https://fr.wikipedia.org/wiki/Bug_(informatique)",
+                "shortQuestion": "Pourquoi appelle-t-on un problème informatique un « bug » ?",
+                "description": "En septembre 1947, l'informatique n'en était qu'à ses débuts. À l'Université de Harvard, l'équipe de la pionnière Grace Hopper travaillait sur le Mark II, un ordinateur gigantesque composé de milliers de relais électromécaniques. Un jour, la machine a cessé de fonctionner sans aucune raison logique dans le code. Après avoir inspecté physiquement les composants internes, ils ont trouvé la source du court-circuit.",
+                "anecdote": "La panne était causée par un véritable papillon de nuit grillé, coincé dans l'un des relais. Grace Hopper a retiré l'insecte avec une pince à épiler et l'a scotché dans son journal de bord avec la mention : « First actual case of bug being found » (Premier cas réel de bug trouvé). Si le terme \"bug\" existait déjà pour désigner un défaut technique, cet événement a rendu l'expression mondiale et permanente dans le langage informatique.",
+                "theme": "Technologie",
+                "quiz": {
+                    "question": "Quel animal est à l'origine du tout premier \"bug\" informatique documenté ?",
+                    "answers": [
+                        { "text": "Un cafard.", "correct": false },
+                        { "text": "Une araignée.", "correct": false },
+                        { "text": "Un papillon de nuit.", "correct": true },
+                        { "text": "Une fourmi.", "correct": false }
+                    ]
+                }
+            },
+            "main": {
+                "id": 2,
+                "imageDish": "../assets/img/dish-ours-soldat.png",
+                "imageWikipedia": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Wojtek_the_bear.jpg",
+                "title": "Ours soldat",
+                "pageLink": "https://fr.wikipedia.org/wiki/Wojtek",
+                "shortQuestion": "Comment un ours brun a-t-il pu devenir caporal dans l'armée et participer à la Seconde Guerre mondiale ?",
+                "description": "Wojtek était un ours brun orphelin adopté en Iran par des soldats polonais. Pour qu'il puisse rester avec eux et monter à bord des navires de transport britanniques, qui interdisaient les animaux domestiques, les soldats l'ont officiellement enrôlé. Il possédait son propre matricule, son grade de caporal et son livret de solde. Il vivait, dormait et voyageait avec les hommes comme un soldat à part entière.",
+                "anecdote": "Wojtek n'était pas qu'une mascotte : lors de la sanglante bataille du Mont Cassin en Italie, il a activement aidé ses camarades en transportant des caisses de munitions de 45 kg vers l'artillerie, sans jamais en faire tomber une seule. Après la guerre, il a pris sa retraite au zoo d'Édimbourg, où il continuait de s'agiter joyeusement dès qu'il entendait des visiteurs parler polonais.",
+                "theme": "Histoire",
+                "quiz": {
+                    "question": "Quel rôle concret l'ours Wojtek a-t-il joué lors de la bataille du Mont Cassin en Italie ?",
+                    "answers": [
+                        {
+                            "text": "Il transportait des caisses de munitions de 45 kg vers l'artillerie polonaise.",
+                            "correct": true
+                        },
+                        {
+                            "text": "Il servait de guetteur nocturne pour prévenir les attaques surprises grâce à son odorat.",
+                            "correct": false
+                        },
+                        {
+                            "text": "Il était utilisé pour intimider les prisonniers de guerre et les empêcher de s'évader.",
+                            "correct": false
+                        },
+                        {
+                            "text": "Il nageait entre les navires alliés pour livrer des messages secrets entre les officiers.",
+                            "correct": false
+                        }
+                    ]
+                }
+            },
+            "dessert": {
+                "id": 3,
+                "imageDish": "../assets/img/dish-epidemie-dansante.png",
+                "imageWikipedia": "https://recherche.unistra.fr/fileadmin/upload/unistra/actualites/recherche/Danseurs_fous.jpg",
+                "title": "Épidémie dansante",
+                "pageLink": "https://fr.wikipedia.org/wiki/%C3%89pid%C3%A9mie_dansante_de_1518",
+                "shortQuestion": "Comment une ville entière s'est-elle retrouvée à danser jusqu'à la mort sans pouvoir s'arrêter ?",
+                "description": "En juillet 1518, à Strasbourg, une femme nommée Frau Troffea a commencé à danser frénétiquement dans la rue. Elle n'y avait ni musique, ni raison apparente, mais elle ne s'arrêtait jamais. En une semaine, 34 personnes l'avaient rejointe. En un mois, ils étaient environ 400. Les autorités de l'époque, totalement dépassées, ont cru que les victimes souffraient d'un « sang trop chaud » et qu'il fallait qu'ils continuent de danser pour expulser le mal.",
+                "anecdote": "Au lieu de les soigner, la ville a fait construire une scène en bois et a engagé des musiciens professionnels pour les accompagner. L'idée était que s'ils dansaient jour et nuit, ils finiraient par guérir. Résultat : l'épidémie a empiré et de nombreux danseurs sont morts d'épuisement, de crises cardiaques ou d'AVC, transformant la place de la ville en une véritable boîte de nuit macabre à ciel ouvert.",
+                "theme": "Médecine",
+                "quiz": {
+                    "question": "Quelle a été la réaction la plus surprenante des autorités de Strasbourg pour tenter de stopper l'épidémie dansante de 1518 ?",
+                    "answers": [
+                        {
+                            "text": "Ils ont déclaré que c'était un sortilège et ont brûlé les chaussures de tous les habitants.",
+                            "correct": false
+                        },
+                        {
+                            "text": "Ils ont banni Frau Troffea (la première danseuse) pour éviter que la \"maladie\" ne se propage.",
+                            "correct": false
+                        },
+                        {
+                            "text": "Ils ont fait construire une scène et engagé des musiciens pour encourager les gens à danser encore plus.",
+                            "correct": true
+                        },
+                        {
+                            "text": "Ils ont immédiatement interdit toute forme de musique et de rassemblement dans la ville.",
+                            "correct": false
+                        }
+                    ]
+                }
+            }
+        },
+        "art": {
+            "entry": {
+                "id": 4,
+                "imageDish": "../assets/img/dish-la-joconde.png",
+                "imageWikipedia": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_natural_color.jpg/500px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_natural_color.jpg",
+                "title": "La Joconde",
+                "pageLink": "https://fr.wikipedia.org/wiki/La_Joconde",
+                "shortQuestion": "Mona Lisa sourit-elle vraiment ?",
+                "description": "La Joconde, peinte par Léonard de Vinci entre 1503 et 1506, est l'un des tableaux les plus célèbres au monde. Son sourire énigmatique a fasciné des générations, en partie parce qu'il semble changer selon l'angle de vue et la perception de l'observateur. Léonard a utilisé la technique du sfumato, un fondu subtil entre les ombres et la lumière, pour créer une expression à la fois douce et mystérieuse. La peinture illustre également l'habileté exceptionnelle du maître dans la gestion de la perspective et des détails anatomiques, donnant une profondeur et un réalisme inégalés. Au-delà de l'art, le tableau a traversé les siècles en inspirant des études scientifiques sur la vision et la psychologie humaine, ainsi qu'en devenant un symbole culturel mondial.",
+                "anecdote": "Pendant longtemps, les gens ont débattu de la véritable identité du modèle et de son sourire. Le tableau a été volé du Louvre en 1911, ce qui a contribué à sa renommée mondiale et à son statut iconique.",
+                "theme": "Art",
+                "quiz": {
+                    "question": "Quelle technique est utilisée ?",
+                    "answers": [
+                        { "text": "Sfumato", "correct": true },
+                        { "text": "Fresque", "correct": false },
+                        { "text": "Gouache", "correct": false },
+                        { "text": "Tempera", "correct": false }
+                    ]
+                }
+            },
+            "main": {
+                "id": 5,
+                "imageDish": "../assets/img/dish-impressionnisme.png",
+                "imageWikipedia": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Claude_Monet%2C_Impression%2C_soleil_levant.jpg/500px-Claude_Monet%2C_Impression%2C_soleil_levant.jpg",
+                "title": "Impressionnisme, la peinture qui capture la lumière",
+                "pageLink": "https://fr.wikipedia.org/wiki/Impressionnisme",
+                "shortQuestion": "Pourquoi les impressionnistes peignaient-ils si vite et en plein air ?",
+                "description": "L'impressionnisme est un mouvement artistique né en France dans la seconde moitié du XIXᵉ siècle. Il se concentre sur les effets fugitifs de lumière et de couleur plutôt que sur le réalisme exact des formes. Les artistes comme Claude Monet ou Pierre-Auguste Renoir privilégiaient les coups de pinceau rapides et visibles et les scènes de la vie quotidienne ou des paysages peints en plein air. Ce mouvement rejette les sujets académiques traditionnels pour mieux capturer l'instant, l'atmosphère et les nuances de la lumière.",
+                "anecdote": "Le nom \"Impressionnistes\" vient d'un critique moqueur qui trouvait leurs tableaux « inachevés »… et le mouvement a gardé ce surnom comme un badge d'honneur.",
+                "theme": "Art",
+                "quiz": {
+                    "question": "Qu'est-ce qui distingue l'impressionnisme ?",
+                    "answers": [
+                        {
+                            "text": "Les coups de pinceau visibles et l'étude de la lumière",
+                            "correct": true
+                        },
+                        { "text": "La gravure sur métal", "correct": false },
+                        {
+                            "text": "La sculpture monumentale",
+                            "correct": false
+                        },
+                        {
+                            "text": "L'usage exclusif de la peinture à l'encre",
+                            "correct": false
+                        }
+                    ]
+                }
+            },
+            "dessert": {
+                "id": 6,
+                "imageDish": "../assets/img/dish-ronde-de-nuit.png",
+                "imageWikipedia": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/The_Night_Watch_-_HD.jpg/500px-The_Night_Watch_-_HD.jpg",
+                "title": "La Ronde de nuit",
+                "pageLink": "https://fr.wikipedia.org/wiki/La_Ronde_de_nuit",
+                "shortQuestion": "Pourquoi le tableau \"La Ronde de Nuit\" de Rembrandt se déroule-t-il en plein jour ?",
+                "description": "C'est l'un des plus grands malentendus de l'histoire de l'art. Pendant des siècles, ce chef-d'œuvre de Rembrandt a été admiré pour son ambiance nocturne sombre et mystérieuse, ce qui lui a valu son titre universel de La Ronde de Nuit. En réalité, le tableau représente une sortie de milice sous un soleil éclatant.",
+                "anecdote": "Ce n'est qu'en 1947, lors d'une restauration majeure, que les experts ont découvert la vérité. Le tableau était simplement recouvert de multiples couches de vernis bitumineux et de poussière qui avaient noirci avec le temps, donnant l'illusion de la nuit. Une fois nettoyé, le ciel bleu et la lumière du jour sont réapparus. Mais le titre était devenu si célèbre qu'on a décidé de le garder, même s'il est techniquement faux.",
+                "theme": "Art",
+                "quiz": {
+                    "question": "Quelle a été la véritable cause de l'aspect \"nocturne\" du tableau de Rembrandt ?",
+                    "answers": [
+                        {
+                            "text": "Rembrandt l'a peint à la lueur d'une seule bougie.",
+                            "correct": false
+                        },
+                        {
+                            "text": "L'accumulation de vernis sale et de poussière au fil des siècles.",
+                            "correct": true
+                        },
+                        {
+                            "text": "La fumée des cigares des gardiens de musée qui a noirci la toile.",
+                            "correct": false
+                        },
+                        {
+                            "text": "C'était une demande spécifique de la milice pour paraître plus effrayante.",
+                            "correct": false
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
