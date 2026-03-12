@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
 /*LE BLOC (Ce qui fait que c'est un bouton) */
 .btn {
   border-radius: 100px;
   border: 2px solid #221f1f;
-  font-family:'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   color: #221f1f;
   cursor: pointer;
   font-weight: 400;
@@ -13,12 +13,10 @@
   transition: all 0.1s;
   outline: none;
 }
-  .btn:active {
-    box-shadow: 0px 0px 0px 0px #221f1f;
-    transform: translate(4px, 4px);
-
-  }
-
+.btn:active {
+  box-shadow: 0px 0px 0px 0px #221f1f;
+  transform: translate(4px, 4px);
+}
 
 /* LES MODIFICATEURS */
 
@@ -26,7 +24,7 @@
 .btn--normal {
   border-radius: 100px;
   border: 2px solid #221f1f;
-  font-family:'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   color: #221f1f;
   cursor: pointer;
   font-weight: 400;
@@ -35,76 +33,63 @@
   transition: all 0.1s;
   outline: none;
 }
-  .btn:active {
-    box-shadow: 0px 0px 0px 0px #221f1f;
-    transform: translate(4px, 4px);
-
-  }
-
+.btn:active {
+  box-shadow: 0px 0px 0px 0px #221f1f;
+  transform: translate(4px, 4px);
+}
 
 /* Modificateur 2 : La bonne réponse (Vert) */
 .btn--reponse {
+  background-color: #78bf90;
 
-    background-color: #78BF90; 
-    
-   
-    border: 2px solid #2B2424;
+  border: 2px solid #2b2424;
 
-    color: #2B2424;
-    
-    padding: 10px 30px;
-    border-radius: 100px;
-    
-    
-    font-family: 'Manrope', sans-serif;
-    font-weight: 400;
-    font-size: 13px;
+  color: #2b2424;
 
-    
-    box-shadow: 4px 4px 0px 0px #2B2424;
+  padding: 10px 30px;
+  border-radius: 100px;
 
- 
-    cursor: pointer;
-    display: inline-block;
-    transition: all 0.1s;
-    outline: none;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+
+  box-shadow: 4px 4px 0px 0px #2b2424;
+
+  cursor: pointer;
+  display: inline-block;
+  transition: all 0.1s;
+  outline: none;
 }
 
-
 .btn--reponse:active {
-    box-shadow: 0px 0px 0px 0px #2B2424;
-    transform: translate(4px, 4px);
+  box-shadow: 0px 0px 0px 0px #2b2424;
+  transform: translate(4px, 4px);
 }
 
 /* Modificateur 3 : La mauvaise réponse (Rouge) */
 .btn--erreur {
+  background-color: #d7524d;
 
-    background-color: #D7524D; 
- 
-    border: 2px solid #2B2424;
-    
-    
-    color: #2B2424;
- 
-    padding: 10px 30px;
-    border-radius: 100px;
-    
-  
-    font-family: 'Manrope', sans-serif;
-    font-weight: 400;
-    font-size: 13px;
+  border: 2px solid #2b2424;
 
-  
-    box-shadow: 4px 4px 0px 0px #2B2424;
+  color: #2b2424;
 
-    cursor: pointer;
-    display: inline-block;
-    transition: all 0.1s;
-    outline: none;
+  padding: 10px 30px;
+  border-radius: 100px;
+
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+
+  box-shadow: 4px 4px 0px 0px #2b2424;
+
+  cursor: pointer;
+  display: inline-block;
+  transition: all 0.1s;
+  outline: none;
 }
 
-
 .btn--erreur:active {
-    box-shadow: 0px 0px 0px 0px #2B2424;
-    transform: translate(4px, 4px);
+  box-shadow: 0px 0px 0px 0px #2b2424;
+  transform: translate(4px, 4px);
 }
