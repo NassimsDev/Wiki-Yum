@@ -1,18 +1,22 @@
 import { MealHeader } from "../../components/MealHeader/MealHeader";
 import { MealContent } from "../../components/MealContent/MealContent";
 import "./MealPage.css"
-import dataArtBox from "../../data/new-art-box.json"
-import data from "../../data/mystery-box.json"
-import { useState } from "react";
 
 export function MealPage() {
-    const [index, setIndex] = useState(1)
+    const { box, course } = useParams()
+    const meal = data.box[box][course]
+
     return (
         <>
-        <MealHeader>
-
-        </MealHeader>
-        <MealContent title = {dataArtBox}></MealContent>
+        <MealHeader
+        title={meal.title}
+        shortQuestion={meal.shortQuestion}
+        imageDish={meal.imageDish}
+        imageWikipedia={meal.imageWikipedia}
+        theme={meal.theme}
+        />
+        <MealContent title="Description" text={meal.description} />
+        <MealContent title="Anecdote" text={meal.anecdote} />
         </>
-    )   
+    )
 }

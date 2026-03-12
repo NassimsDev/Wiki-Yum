@@ -1,11 +1,11 @@
 import "./MealContent.css"
 
-export function MealContent({title, description}){
+export function MealContent({title, text}){
 
     return (
         <section>
             <h3>{title}</h3>
-            <p>{description}</p>
+            <p>{text}</p>
         </section>
     )
 }
