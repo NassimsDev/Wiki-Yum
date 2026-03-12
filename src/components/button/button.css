@@ -1,0 +1,10 @@
+.bouton-style {
+  background-color: #e36585;
+  color: white;
+  padding:  10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-family: Arial, Helvetica, sans-serif ;
+  font-weight: bold;
+  cursor: pointer;
+}
