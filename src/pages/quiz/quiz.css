@@ -1,0 +1,42 @@
+body {
+    font-family: "Manrope", sans-serif;
+    background-color: #e9e0db;
+}
+
+.Quiz-Container {
+    width: 90%;
+    max-width: 450px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+    /* box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); */
+    text-align: center;
+}
+
+.Quiz-Container h1 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.Quiz-Answers {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    width: 80%;
+    max-width: 400px;
+    margin: 20px auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.Quiz-Answers-Childs {
+    font-family: "Manrope", sans-serif;
+    color: #2b2424;
+    border: 2px solid #2b2424;
+    padding: 18px;
+    font-size: 18px;
+    border-radius: 100px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+}
