@@ -1,15 +1,20 @@
+/* Import font */
+@import "./fonts.css";
+
+/* Reset CSS */
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html,
 body,
 #root {
-    min-height: 100%;
+  min-height: 100%;
 }
 
 body {
-    font-family: Arial, sans-serif;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
 }
