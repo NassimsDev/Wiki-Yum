@@ -1,20 +1,45 @@
 import "./BoxPage.css"
+
+import { useRef } from "react"
+import gsap from "gsap"
+import { useGSAP } from "@gsap/react"
+
 import bell from "../../assets/img/bell.png"
 import starPink from "../../assets/img/star-pink.png"
-import ButtonLink from "../../components/ButtonLink/ButtonLink"
-import { BoxDishes } from "../../components/BoxDishes/BoxDishes"
 import data from "../../data/boxes-data.json"
 
-console.log(`/menu/${data.box.mystery.id}`)
+import { ButtonLink } from "../../components/ButtonLink/ButtonLink"
+import { BoxDishes } from "../../components/BoxDishes/BoxDishes"
 
 export function BoxPage() {
+  // Étiquettes pour GSAP
+  const bellRef = useRef(null)
+  const dishesRef = useRef(null)
+
+  // Animations
+  useGSAP(() => {
+    // Cloche
+    gsap.from(bellRef.current, {
+      scale: 0,
+      duration: 1.0,
+      ease: "elastic.out",
+      delay: 0.5,
+    })
+
+    // Dishes
+
+    // Étoiles
+  })
+
   return (
     <main>
       <div className="box-page">
         <div className="box-page__image-group">
-          <img src={bell} className="box-page__bell" alt="cloche" />
+          <img ref={bellRef} src={bell} className="box-page__bell" alt="cloche" />
 
-          <BoxDishes></BoxDishes>
+          <div ref={dishesRef}>
+            <BoxDishes></BoxDishes>
+          </div>
 
           <img src={starPink} className="box-page__star box-page__star--large" alt="etoile rose" />
           <img src={starPink} className="box-page__star box-page__star--big" alt="etoile rose" />
@@ -22,7 +47,7 @@ export function BoxPage() {
           <img src={starPink} className="box-page__star box-page__star--small" alt="etoile rose" />
         </div>
 
-        <ButtonLink texte="Ouvrir" destination={`/menu/${data.box.mystery.id}`}></ButtonLink>
+        <ButtonLink text="Ouvrir" destination={`/menu/${data.box.mystery.id}`}></ButtonLink>
       </div>
     </main>
   )
