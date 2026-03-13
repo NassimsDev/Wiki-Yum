@@ -13,6 +13,12 @@ import { BoxDishes } from "../../components/BoxDishes/BoxDishes"
 
 export function BoxPage() {
   // Étiquettes pour GSAP
+
+  const boxList = []
+  for (const key in data.box) {
+    boxList.push(key)
+  }
+
   const bellRef = useRef(null)
   const dishesRef = useRef(null)
 
@@ -47,7 +53,7 @@ export function BoxPage() {
           <img src={starPink} className="box-page__star box-page__star--small" alt="etoile rose" />
         </div>
 
-        <ButtonLink text="Ouvrir" destination={`/menu/${data.box.mystery.id}`}></ButtonLink>
+        <ButtonLink text="Ouvrir" destination={`/menu/${boxList[0]}`}></ButtonLink>
       </div>
     </main>
   )
