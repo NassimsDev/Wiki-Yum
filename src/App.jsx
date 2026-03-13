@@ -1,11 +1,10 @@
+import { RouterProvider } from "react-router-dom";
+import { router } from "./router";
+
 function App() {
     return (
-        <main>
-            <h1>
-                La plus grande difficulté de l'éducation, c'est
-                transformer les idées en expériences
-            </h1>
-        </main>
+        // Active les routes définies dans router.jsx
+        <RouterProvider router={router} />
     );
 }
 
