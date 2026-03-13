@@ -21,24 +21,22 @@ export function QuizPage() {
     } else {
       console.log("mauvaise réponse")
     }
+  }
 
-    return (
-        <main className="Quiz-Container">
-            <QuizHeader
-                imageDish={meal.imageDish}
-                question={meal.quiz.question}
-            />
+  return (
+    <main className="Quiz-Container">
+      <QuizHeader imageDish={meal.imageDish} question={meal.quiz.question} title={course} />
 
-            <div className="Quiz-Answers-List">
-                {meal.quiz.answers.map((answer, index) => (
-                    <ButtonLink
-                        key={index}
-                        text={answer.text}
-                        action={() => handleAnswerClick(answer)}
-                        variante={answer.correct ? "succes" : "erreur"}
-                    ></ButtonLink>
-                ))}
-            </div>
-        </main>
-    );
+      <div className="Quiz-Answers-List">
+        {meal.quiz.answers.map((answer, index) => (
+          <ButtonLink
+            key={index}
+            text={answer.text}
+            action={() => handleAnswerClick(answer)}
+            variante="reponse"
+          ></ButtonLink>
+        ))}
+      </div>
+    </main>
+  )
 }
