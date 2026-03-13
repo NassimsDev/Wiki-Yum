@@ -1,0 +1,77 @@
+.menuSection {
+  margin: 0;      
+  padding: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sectionImage {
+  height: 80px; 
+  width: auto;
+  display: block;
+  margin: 0 auto 15px auto;
+  object-fit: contain;
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: row; 
+  align-items: center; 
+  justify-content: center;
+  gap: 17px; 
+ 
+}
+
+.sectionTitle {
+  font-family: 'EightiesComeback', sans-serif;
+  font-size: 30px;
+  font-weight: 800; 
+  color: #2D2D2D;  
+  margin: 0;      
+  text-transform: none; 
+}
+
+.themeBadge {
+  padding: 10px 20px; 
+  border: 2px solid #000000; 
+  border-radius: 10px; 
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  
+  font-family: 'Manrop', sans-serif;
+  font-weight: 600; 
+  font-size: 16px;
+  color: #000000;
+
+  /* pour que le texte ne revienne pas à la ligne si le mot est long */
+  white-space: nowrap; 
+}
+
+.animaux {
+  background-color: #EED143;
+}
+
+.histoire {
+  background-color: #EED143;
+}
+
+.medecine {
+  background-color: #7FBE8D;
+}
+
+.techno {
+  background-color: #6A74E7;
+}
+
+.questionText {
+font-family: 'Manrop', sans-serif;
+font-size: 17px;
+color: #2B2424;
+max-width: 320px;
+line-height: 1.4;
+margin-top: 8px;   
+margin-bottom: 0;
+}
