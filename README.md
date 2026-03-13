@@ -41,7 +41,7 @@ L'expérience utilisateur est enrichie par une dimension sonore spécifique :
 
 ## 📱 Pourquoi une application Mobile ?
 Le choix du format mobile s'est imposé car Wikiyum est conçu comme un rituel quotidien. Le smartphone permet d'apprendre rapidement lors de courtes sessions (transports, pauses), ce qui correspond parfaitement au format interactif de nos quiz et anecdotes. C'est l'outil le plus adapté pour encourager une progression régulière et consulter ses statistiques n'importe où.
-
+On pourra retrouver un QR code sur toutes les pages afin faciliter l'accès à la version mobile. 
 ---
 
 ## 💻 Stack Technique
