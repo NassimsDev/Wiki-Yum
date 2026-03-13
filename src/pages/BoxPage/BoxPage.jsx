@@ -75,15 +75,29 @@ export function BoxPage() {
       },
     })
 
-    // Animation Bell soulève
+    // 1. Animation Bell soulève
     tl.to(bellRef.current, {
-      y: -150,
+      y: -200,
+      x: 50,
       rotation: 25,
       duration: 0.8,
       ease: "power2.out",
     })
 
-      // Animation plats
+      // 2. Animation stars disparition
+      .to(
+        ".box-page__star",
+        {
+          scale: 0,
+          rotation: -90,
+          duration: 0.3,
+          stagger: 0.1,
+          ease: "back.in(1.5)",
+        },
+        "<",
+      )
+
+      // 3. Animation plats
       .to(
         dishesRef.current,
         {
@@ -93,6 +107,19 @@ export function BoxPage() {
           ease: "back.out(1.5)",
         },
         "-=0.4",
+      )
+
+      // 4. Animation plats items
+      .to(
+        ".box-dishes__item",
+        {
+          scale: 0,
+          opacity: 0,
+          duration: 0.4,
+          stagger: 0.15,
+          ease: "back.in(1.5)",
+        },
+        "+=0.5",
       )
   }
 
