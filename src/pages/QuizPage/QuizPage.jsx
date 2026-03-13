@@ -41,7 +41,7 @@ export function QuizPage() {
                         key={index}
                         text={answer.text}
                         action={() => handleAnswerClick(answer)}
-                        variante="reponse"
+                        variante={answer.correct ? "succes" : "erreur"}
                     ></ButtonLink>
                 ))}
             </div>
