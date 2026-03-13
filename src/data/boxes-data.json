@@ -1,16 +1,15 @@
 {
   "box": {
     "mystery": {
-      "id": "mystery",
       "entry": {
-        "id": 1,
-        "imageDish": "../src/assets/img/dish-bug-informatique.png",
+        "id": 0,
+        "imageDish": "../../src/assets/img/dish-bug-informatique.png",
         "imageWikipedia": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Sad_mac.png",
         "title": "Bug informatique",
         "pageLink": "https://fr.wikipedia.org/wiki/Bug_(informatique)",
         "shortQuestion": "Pourquoi appelle-t-on un problème informatique un « bug » ?",
-        "description": "En septembre 1947, l'informatique n'en était qu'à ses débuts. À l'Université de Harvard, l'équipe de la pionnière Grace Hopper travaillait sur le Mark II, un ordinateur gigantesque composé de milliers de relais électromécaniques. Un jour, la machine a cessé de fonctionner sans aucune raison logique dans le code. Après avoir inspecté physiquement les composants internes, ils ont trouvé la source du court-circuit.",
-        "anecdote": "La panne était causée par un véritable papillon de nuit grillé, coincé dans l'un des relais. Grace Hopper a retiré l'insecte avec une pince à épiler et l'a scotché dans son journal de bord avec la mention : « First actual case of bug being found » (Premier cas réel de bug trouvé). Si le terme \"bug\" existait déjà pour désigner un défaut technique, cet événement a rendu l'expression mondiale et permanente dans le langage informatique.",
+        "description": "En septembre 1947, l'informatique n'en était qu'à ses débuts. À l'Université de Harvard, l'équipe de la pionnière Grace Hopper travaillait sur le Mark II, un ordinateur gigantesque composé de milliers de relais électromécaniques. \n Un jour, la machine a cessé de fonctionner sans aucune raison logique dans le code. Après avoir inspecté physiquement les composants internes, ils ont trouvé la source du court-circuit.",
+        "anecdote": "La panne était causée par un véritable papillon de nuit grillé, coincé dans l'un des relais. Grace Hopper a retiré l'insecte avec une pince à épiler et l'a scotché dans son journal de bord avec la mention : « First actual case of bug being found » (Premier cas réel de bug trouvé). \n Si le terme \"bug\" existait déjà pour désigner un défaut technique, cet événement a rendu l'expression mondiale et permanente dans le langage informatique.",
         "theme": "Technologie",
         "quiz": {
           "question": "Quel animal est à l'origine du tout premier \"bug\" informatique documenté ?",
@@ -23,8 +22,8 @@
         }
       },
       "main": {
-        "id": 2,
-        "imageDish": "../src/assets/img/dish-ours-soldat.png",
+        "id": 1,
+        "imageDish": "../../src/assets/img/dish-ours-soldat.png",
         "imageWikipedia": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Wojtek_the_bear.jpg",
         "title": "Ours soldat",
         "pageLink": "https://fr.wikipedia.org/wiki/Wojtek",
@@ -55,8 +54,8 @@
         }
       },
       "dessert": {
-        "id": 3,
-        "imageDish": "../src/assets/img/dish-epidemie-dansante.png",
+        "id": 2,
+        "imageDish": "../../src/assets/img/dish-epidemie-dansante.png",
         "imageWikipedia": "https://recherche.unistra.fr/fileadmin/upload/unistra/actualites/recherche/Danseurs_fous.jpg",
         "title": "Épidémie dansante",
         "pageLink": "https://fr.wikipedia.org/wiki/%C3%89pid%C3%A9mie_dansante_de_1518",
@@ -88,10 +87,9 @@
       }
     },
     "art": {
-      "id": "art",
       "entry": {
-        "id": 4,
-        "imageDish": "../src/assets/img/dish-la-joconde.png",
+        "id": 0,
+        "imageDish": "../../src/assets/img/dish-la-joconde.png",
         "imageWikipedia": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_natural_color.jpg/500px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_natural_color.jpg",
         "title": "La Joconde",
         "pageLink": "https://fr.wikipedia.org/wiki/La_Joconde",
@@ -110,8 +108,8 @@
         }
       },
       "main": {
-        "id": 5,
-        "imageDish": "../src/assets/img/dish-impressionnisme.png",
+        "id": 1,
+        "imageDish": "../../src/assets/img/dish-impressionnisme.png",
         "imageWikipedia": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Claude_Monet%2C_Impression%2C_soleil_levant.jpg/500px-Claude_Monet%2C_Impression%2C_soleil_levant.jpg",
         "title": "Impressionnisme, la peinture qui capture la lumière",
         "pageLink": "https://fr.wikipedia.org/wiki/Impressionnisme",
@@ -139,8 +137,8 @@
         }
       },
       "dessert": {
-        "id": 6,
-        "imageDish": "../src/assets/img/dish-ronde-de-nuit.png",
+        "id": 2,
+        "imageDish": "../../src/assets/img/dish-ronde-de-nuit.png",
         "imageWikipedia": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/The_Night_Watch_-_HD.jpg/500px-The_Night_Watch_-_HD.jpg",
         "title": "La Ronde de nuit",
         "pageLink": "https://fr.wikipedia.org/wiki/La_Ronde_de_nuit",

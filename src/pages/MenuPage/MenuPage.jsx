@@ -1,3 +1,4 @@
+
 export function MenuPage() {
     return (
         <div>

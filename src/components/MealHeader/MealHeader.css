@@ -1,0 +1,34 @@
+.header-meal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 42px;
+}
+
+.top-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    gap:22px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+/* images */
+.image-dish {
+    width: 148px;
+    height: 132px;
+}
+
+.image-wiki {
+    width: 100%;
+    height: 300px;
+    object-fit: cover; 
+    object-position: center center;
+    border-radius: 16px;
+}
+

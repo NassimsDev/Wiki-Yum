@@ -1,0 +1,10 @@
+.meal-container {
+    display: flex;
+    flex-direction: column;
+    padding: 48px;
+    gap: 42px;
+}
+
+p {
+    font-size: 22px;
+}

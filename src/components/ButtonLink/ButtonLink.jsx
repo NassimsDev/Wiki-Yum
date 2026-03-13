@@ -1,10 +1,11 @@
 import { useNavigate } from "react-router-dom"
 import "./ButtonLink.css"
 
-function Button({ texte, destination, action, variante = "" }) {
+export function ButtonLink({ text, destination, action, variante = "" }) {
   const navigate = useNavigate()
 
   const gererClic = () => {
+    console.log("test")
     if (destination) {
       // S'il y a une "destination", on prend le routeur pour changer de page
       navigate(destination)
@@ -20,9 +21,8 @@ function Button({ texte, destination, action, variante = "" }) {
       className={`btn btn--${variante}`}
       onClick={gererClic}
     >
-      {texte}
+      {text}
     </button>
   )
 }
 
-export default Button
