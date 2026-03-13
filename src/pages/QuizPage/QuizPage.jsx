@@ -3,6 +3,7 @@ import { QuizHeader } from "../../components/QuizHeader/QuizHeader.jsx";
 import { QuizAnswers } from "../../components/QuizAnswers/QuizAnswers.jsx";
 import data from "../../data/boxes-data.json";
 import "./QuizPage.css";
+import { ButtonLink } from "../../components/ButtonLink/ButtonLink.jsx";
 
 export function QuizPage() {
     // 1. On récupère le nom de la box via l'URL (ex: /quiz/mystery)
@@ -28,6 +29,8 @@ export function QuizPage() {
                     <QuizAnswers key={index} text={ans.text} />
                 ))}
             </div>
+
+            <ButtonLink texte="test" variante="reponse--correct"></ButtonLink>
         </main>
     );
 }
