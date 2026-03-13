@@ -3,7 +3,7 @@ import "./MealHeader.css"
 export function MealHeader({imageDish, title, theme, imageWikipedia, alt}) {
 
     return (
-        <header>
+        <header className="header-meal">
             <div className="top-description">
                 <img className="image-dish" src={imageDish} alt={title} />
                 <h1 className="">{title}</h1>

@@ -1,0 +1,42 @@
+.header-zoom {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    gap: 52px;
+}
+
+.div-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    gap:22px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+short-question {
+    text-align: center;
+    font-size: 26px;
+}
+
+span {
+    font-size: 18px;
+    padding: 10px 20px 10px 20px;
+    border: inset 2px #2B2424;
+    border-radius: 10px;
+    background-color: #7D8DEC;
+}
+
+
+/* images */
+.image-dish {
+    width: 148px;
+    height: 132px;
+}
+
