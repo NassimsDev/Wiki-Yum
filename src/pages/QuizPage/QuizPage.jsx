@@ -1,32 +1,46 @@
-import { useParams } from "react-router-dom";
-import { QuizHeader } from "../../components/QuizHeader/QuizHeader.jsx";
-import { QuizAnswers } from "../../components/QuizAnswers/QuizAnswers.jsx";
-import data from "../../data/boxes-data.json";
-import "./QuizPage.css";
+import { useParams, useNavigate } from "react-router-dom"
+import { QuizHeader } from "../../components/QuizHeader/QuizHeader.jsx"
+import { QuizAnswers } from "../../components/QuizAnswers/QuizAnswers.jsx"
+import { ButtonLink } from "../../components/ButtonLink/ButtonLink.jsx"
+import data from "../../data/boxes-data.json"
+
+import "./QuizPage.css"
 
 export function QuizPage() {
-    const { box } = useParams();
+  const { box, course } = useParams()
+  const navigate = useNavigate()
 
-    // Sécurité : on vérifie si la box existe pour éviter la page blanche
-    const currentBox = data.box[box]?.entry;
+  const meal = data.box[box][course]
+  const courses = ["entry", "main", "dessert"]
 
-    if (!currentBox) return <div>Box non trouvée</div>;
+  console.log("meal ->", meal)
 
-    const questionTitre = currentBox.quiz.question;
-    const reponses = currentBox.quiz.answers;
-    const imageAffiche = currentBox.imageDish;
-    
-    
+  const link = course === "dessert" ? "/box" : `/quiz/${box}/${courses[meal.id + 1]}`
 
-    return (
-        <main className="Quiz-Container">
-            <QuizHeader imageDish={imageAffiche} question={questionTitre} />
+  console.log("LINK", link)
 
-            <div className="Quiz-Answers-List">
-                {reponses.map((ans, index) => (
-                    <QuizAnswers key={index} text={ans.text} />
-                ))}
-            </div>
-        </main>
-    );
+  function handleAnswerClick(answer) {
+    if (answer.correct) {
+      navigate(link)
+    } else {
+      console.log("mauvaise réponse")
+    }
+  }
+
+  return (
+    <main className="Quiz-Container">
+      <QuizHeader imageDish={meal.imageDish} question={meal.quiz.question} />
+
+      <div className="Quiz-Answers-List">
+        {meal.quiz.answers.map((answer, index) => (
+          <ButtonLink
+            key={index}
+            text={answer.text}
+            action={() => handleAnswerClick(answer)}
+            variante="reponse"
+          ></ButtonLink>
+        ))}
+      </div>
+    </main>
+  )
 }
