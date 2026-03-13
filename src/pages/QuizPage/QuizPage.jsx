@@ -1,6 +1,5 @@
 import { useParams, useNavigate } from "react-router-dom"
 import { QuizHeader } from "../../components/QuizHeader/QuizHeader.jsx"
-import { QuizAnswers } from "../../components/QuizAnswers/QuizAnswers.jsx"
 import { ButtonLink } from "../../components/ButtonLink/ButtonLink.jsx"
 import data from "../../data/boxes-data.json"
 
@@ -29,7 +28,7 @@ export function QuizPage() {
 
   return (
     <main className="Quiz-Container">
-      <QuizHeader imageDish={meal.imageDish} question={meal.quiz.question} />
+      <QuizHeader imageDish={meal.imageDish} question={meal.quiz.question} title={course} />
 
       <div className="Quiz-Answers-List">
         {meal.quiz.answers.map((answer, index) => (
@@ -37,7 +36,7 @@ export function QuizPage() {
             key={index}
             text={answer.text}
             action={() => handleAnswerClick(answer)}
-            variante="reponse"
+            variante={answer.correct ? "succes" : "erreur"}
           ></ButtonLink>
         ))}
       </div>

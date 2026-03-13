@@ -1,0 +1,40 @@
+/* Cache par défaut pour le mobile */
+.desktop-only-banner {
+    display: none;
+}
+
+/* Configuration Desktop */
+@media (min-width: 800px) {
+    .desktop-only-banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: #e9e0db;
+        z-index: 1000;
+
+        text-align: center;
+        padding: 40px;
+    }
+
+    .banner-content {
+        max-width: 600px;
+    }
+
+    .banner-content p {
+        font-size: 1.8rem;
+        line-height: 1.4;
+        color: #2c2c2c;
+        margin-bottom: 30px;
+    }
+
+    .qr-code-img {
+        width: 250px;
+        height: auto;
+    }
+}

@@ -1,0 +1,11 @@
+.quiz-title {
+  font-size: 60px;
+  font-family: "EightiesComeback", sans-serif;
+  font-weight: 800;
+}
+
+.quiz-question {
+  font-family: "Manrope", serif;
+  font-weight: 400;
+  font-size: 26px;
+}
