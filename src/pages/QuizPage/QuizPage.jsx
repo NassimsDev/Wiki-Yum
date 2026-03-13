@@ -3,34 +3,28 @@ import { QuizHeader } from "../../components/QuizHeader/QuizHeader.jsx";
 import { QuizAnswers } from "../../components/QuizAnswers/QuizAnswers.jsx";
 import data from "../../data/boxes-data.json";
 import "./QuizPage.css";
-import { ButtonLink } from "../../components/ButtonLink/ButtonLink.jsx";
 
 export function QuizPage() {
-    // 1. On récupère le nom de la box via l'URL (ex: /quiz/mystery)
     const { box } = useParams();
 
-    // 2. On accède aux données dynamiquement en utilisant la variable 'box'
-    // On cible .entry car le quiz est lié à l'entrée de la box
-    const currentBox = data.box[box].entry;
+    // Sécurité : on vérifie si la box existe pour éviter la page blanche
+    const currentBox = data.box[box]?.entry;
 
-    // 3. Extraction des données du JSON
+    if (!currentBox) return <div>Box non trouvée</div>;
+
     const questionTitre = currentBox.quiz.question;
     const reponses = currentBox.quiz.answers;
     const imageAffiche = currentBox.imageDish;
 
     return (
         <main className="Quiz-Container">
-            {/* 4. Utilisation du Header avec les props nommées comme ta camarade */}
             <QuizHeader imageDish={imageAffiche} title={questionTitre} />
 
-            {/* 5. Boucle sur les réponses avec la prop 'text' */}
             <div className="Quiz-Answers-List">
                 {reponses.map((ans, index) => (
                     <QuizAnswers key={index} text={ans.text} />
                 ))}
             </div>
-
-            <ButtonLink texte="test" variante="reponse--correct"></ButtonLink>
         </main>
     );
 }
