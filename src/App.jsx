@@ -1,10 +1,13 @@
 import { RouterProvider } from "react-router-dom";
 import { router } from "./router";
+import { DesktopBanner } from "./components/DesktopBanner/DesktopBanner.jsx";
 
 function App() {
     return (
-        // Active les routes définies dans router.jsx
-        <RouterProvider router={router} />
+        <>
+            <DesktopBanner />
+            <RouterProvider router={router} />
+        </>
     );
 }
 
