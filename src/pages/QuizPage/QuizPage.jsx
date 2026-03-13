@@ -15,10 +15,12 @@ export function QuizPage() {
     const questionTitre = currentBox.quiz.question;
     const reponses = currentBox.quiz.answers;
     const imageAffiche = currentBox.imageDish;
+    
+    
 
     return (
         <main className="Quiz-Container">
-            <QuizHeader imageDish={imageAffiche} title={questionTitre} />
+            <QuizHeader imageDish={imageAffiche} question={questionTitre} />
 
             <div className="Quiz-Answers-List">
                 {reponses.map((ans, index) => (
