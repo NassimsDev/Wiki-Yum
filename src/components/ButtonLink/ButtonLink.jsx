@@ -7,8 +7,10 @@ export function ButtonLink({ text, destination, action, variante = "" }) {
   const gererClic = () => {
     console.log("test")
     if (destination) {
+      setTimeout(() => {
+        navigate(destination)
+      }, 500)
       // S'il y a une "destination", on prend le routeur pour changer de page
-      navigate(destination)
     } else if (action) {
       // Sinon, s'il y a une "action", on fait le travail demandé (ex: vérifier le quiz)
       action()
