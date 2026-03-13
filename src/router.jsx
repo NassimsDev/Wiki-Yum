@@ -7,9 +7,9 @@ import { MealPage } from "./pages/MealPage/MealPage"
 import { QuizPage } from "./pages/QuizPage/QuizPage"
 
 export const router = createBrowserRouter([
-    { path: "/box",               element: <BoxPage /> },
-    { path: "/menu/:box",         element: <MenuPage /> },
-    { path: "/zoom/:box/:course", element: <ZoomPage /> },
-    { path: "/meal/:box/:course", element: <MealPage /> },
-    { path: "/quiz/:box",         element: <QuizPage /> },
+  { path: "/", element: <BoxPage /> },
+  { path: "/menu/:box", element: <MenuPage /> },
+  { path: "/zoom/:box/:course", element: <ZoomPage /> },
+  { path: "/meal/:box/:course", element: <MealPage /> },
+  { path: "/quiz/:box", element: <QuizPage /> },
 ])
