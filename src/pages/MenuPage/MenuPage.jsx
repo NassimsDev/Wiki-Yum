@@ -1,46 +1,29 @@
-import React from 'react';
-import data from "../../data/boxes-data.json";
-import MenuSection from "../../components/MenuSection/MenuSection.jsx";
-import './MenuPage.css';
+import { useParams } from "react-router-dom"
+import { MenuSection } from "../../components/MenuSection/MenuSection"
+import { ButtonLink } from "../../components/ButtonLink/ButtonLink"
+import "./MenuPage.css"
+import data from "../../data/boxes-data.json"
 
-import imgBug from "../../assets/img/dish-bug-informatique.png";
-import imgOurs from "../../assets/img/dish-ours-soldat.png";
-import imgDanse from "../../assets/img/dish-epidemie-dansante.png";
-
-function MenuPage() {
- 
-  const currentBox = data.box.mystery;
+export function MenuPage() {
+  const { box } = useParams()
+  const courses = Object.keys(data.box[box])
+  const titles = ["Entrée", "Plat", "Dessert"]
 
   return (
     <div className="menu-container">
-      {/* les données de l'entrée au composant */}
-      <MenuSection 
-        type="Entrée"
-        image={imgBug}
-        theme={currentBox.entry.theme}
-        question={currentBox.entry.shortQuestion}
-      />
-      
-      {/* les données du plat principal */}
-      <MenuSection 
-        type="Plat"
-        image={imgOurs}
-        theme={currentBox.main.theme}
-        question={currentBox.main.shortQuestion}
-      />
-      
-      {/* les données du dessert */}
-      <MenuSection 
-        type="Dessert"
-        image={imgDanse}
-        theme={currentBox.dessert.theme}
-        question={currentBox.dessert.shortQuestion}
-      />
-      
-      
-      <button className="atable-button">À table !</button>
+      {courses.map((course) => {
+        const meal = data.box[box][course]
+        return (
+          <MenuSection
+            key={course}
+            type={titles[meal.id]}
+            image={meal.imageDish}
+            theme={meal.theme}
+            question={meal.shortQuestion}
+          />
+        )
+      })}
+      <ButtonLink destination={`/zoom/${box}/entry`} text="Commencer" />
     </div>
-  );
+  )
 }
-
-export default MenuPage;
