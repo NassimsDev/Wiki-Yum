@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 
 import { MealHeader } from "../../components/MealHeader/MealHeader";
 import { MealContent } from "../../components/MealContent/MealContent";
+import { ButtonLink } from "../../components/ButtonLink/ButtonLink";
 import "./MealPage.css"
 import data from "../../data/boxes-data.json"
 
@@ -26,7 +27,7 @@ export function MealPage() {
         />
         <MealContent title={meal.title} text={meal.description} />
         <MealContent title="Anecdote" text={meal.anecdote} background={true} />
+        <ButtonLink destination={link} text="Encore faim ?" > </ButtonLink>
         </div>
-        
     )
 }

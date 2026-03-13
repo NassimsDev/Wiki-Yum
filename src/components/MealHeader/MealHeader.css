@@ -34,8 +34,10 @@ span {
 }
 
 .image-wiki {
-    width: 298px;
-    height: 234px;
+    width: 100%;
+    height: 300px;
+    object-fit: cover; 
+    object-position: center center;
     border-radius: 16px;
 }
 
