@@ -1,11 +1,9 @@
 import "./BoxPage.css"
 import bell from "../../assets/img/bell.png"
 import starPink from "../../assets/img/star-pink.png"
-import ButtonLink from "../../components/ButtonLink/ButtonLink"
+import { ButtonLink } from "../../components/ButtonLink/ButtonLink"
 import { BoxDishes } from "../../components/BoxDishes/BoxDishes"
 import data from "../../data/boxes-data.json"
-
-console.log(`/menu/${data.box.mystery.id}`)
 
 export function BoxPage() {
   return (
@@ -22,7 +20,7 @@ export function BoxPage() {
           <img src={starPink} className="box-page__star box-page__star--small" alt="etoile rose" />
         </div>
 
-        <ButtonLink texte="Ouvrir" destination={`/menu/${data.box.mystery.id}`}></ButtonLink>
+        <ButtonLink text="Ouvrir" destination={`/menu/${data.box.mystery.id}`}></ButtonLink>
       </div>
     </main>
   )
