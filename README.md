@@ -52,6 +52,20 @@ Le choix du format mobile s'est imposé car Wikiyum est conçu comme un rituel q
 *  **Design :** Approche UX/UI optimisée pour un usage mobile.
 
 ---
+## 🎨 Design 
+<img width="216" height="480" alt="image" src="https://github.com/user-attachments/assets/e46bf3fc-56ba-41b9-bfeb-8f9be2112dc0" />
+<img width="216" height="483" alt="image" src="https://github.com/user-attachments/assets/b8395a15-bf69-49f8-8945-249f04789f4a" />
+<img width="220" height="479" alt="image" src="https://github.com/user-attachments/assets/69d9ff77-0c0d-4346-a8e6-e92ba07dc175" />
+<img width="205" height="2188" alt="image" src="https://github.com/user-attachments/assets/67bf1ef2-a08b-4b9e-8101-cec1a0b9fae0" />
+<img width="146" height="1171" alt="image" src="https://github.com/user-attachments/assets/fb6662d7-e0fd-48a4-a840-23ae652d8cb4" />
+
+*  Lien vers les maquettes: **https://www.figma.com/design/YfGPbnnGfcYiMmP47dxOGw/Maquettes-Wiki-Yum?node-id=151-1916&p=f&t=EWmOiMOlY6A5YvML-0
+
+
+
+
+
+
 
 ## 📂 Arborescence du Projet
 
