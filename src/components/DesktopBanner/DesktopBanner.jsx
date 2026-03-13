@@ -6,8 +6,8 @@ export function DesktopBanner() {
             <div className="banner-content">
                 <p>
                     Afin de profiter pleinement de l'expérience{" "}
-                    <strong>Wiki Yum</strong>, scannez le QR code pour utiliser
-                    la version mobile.
+                    <strong>Wiki Yum</strong>, veuillez scanner le QR code pour
+                    utiliser la version mobile.
                     <br />
                     <strong>Bon appétit !</strong>
                 </p>
