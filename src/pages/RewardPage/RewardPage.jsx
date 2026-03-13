@@ -1,8 +1,8 @@
 import "./RewardPage.css"
 
-import dish1 from "../../assets/img/dish-bug-informatique.png"
-import dish2 from "../../assets/img/dish-ours-soldat.png"
-import dish3 from "../../assets/img/dish-epidemie-dansante.png"
+import dish1 from "/img/dish-bug-informatique.png"
+import dish2 from "/img/dish-ours-soldat.png"
+import dish3 from "/img/dish-epidemie-dansante.png"
 
 export function RewardPage() {
     return (
