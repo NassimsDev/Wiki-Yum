@@ -9,12 +9,21 @@ main {
 }
 
 .box-page {
-  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.box-page__image-group {
   position: relative;
 }
 
-.box-page__cloche {
+.box-page__bell {
   max-width: 221px;
+  z-index: 10;
+  position: relative;
 }
 
 .box-page__star {
