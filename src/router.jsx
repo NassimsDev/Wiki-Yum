@@ -5,6 +5,7 @@ import { MenuPage } from "./pages/MenuPage/MenuPage"
 import { ZoomPage } from "./pages/ZoomPage/ZoomPage"
 import { MealPage } from "./pages/MealPage/MealPage"
 import { QuizPage } from "./pages/QuizPage/QuizPage"
+import { RewardPage } from "./pages/RewardPage/RewardPage"
 
 export const router = createBrowserRouter([
   { path: "/box", element: <BoxPage /> },
@@ -12,4 +13,5 @@ export const router = createBrowserRouter([
   { path: "/zoom/:box/:course", element: <ZoomPage /> },
   { path: "/meal/:box/:course", element: <MealPage /> },
   { path: "/quiz/:box/:course", element: <QuizPage /> },
+  { path: "/reward/:box", element: <RewardPage /> },
 ])
