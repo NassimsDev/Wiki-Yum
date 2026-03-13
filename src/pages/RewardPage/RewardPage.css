@@ -1,0 +1,73 @@
+.reward-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #E9E0DB; 
+    text-align: center;
+    box-sizing: border-box;
+    gap: 10px;
+}
+
+.header-reward {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.bravo-title {
+    font-family: 'EightiesComeback', serif; 
+    font-size: 64px;
+    margin: 0;
+}
+
+/* Alignement des 3 petits plats */
+.dishes-row {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.main-dish { width: 100px; height: auto; }
+.small-dish { width: 70px; height: auto; opacity: 0.9; }
+
+.reward-text {
+    font-family: 'Manrope', sans-serif;
+    font-size: 26px;
+    max-width: 300px;
+    line-height: 1.3;
+    margin: 0;
+}
+
+.reward-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 25px;
+}
+
+.gain-title {
+    font-family: 'EightiesComeback', serif;
+    font-size: 34px;
+    margin-top: 71px;
+}
+
+.xp-badge {
+    background-color: #DB8796; 
+    color: white; 
+    font-family: 'Manrope', sans-serif; 
+    font-size: 70px; 
+    font-weight: 800; 
+    padding: 40px 60px;
+    border-radius: 25px;
+    border: 3px solid #2B2424; 
+    box-shadow: 10px 10px 0px 0px #2B2424; 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+}
