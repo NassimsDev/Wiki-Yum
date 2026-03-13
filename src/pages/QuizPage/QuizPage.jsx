@@ -1,3 +1,6 @@
+import { QuizHeader } from "../../components/QuizHeader/QuizHeader.jsx";
+import { QuizAnswers } from "../../components/QuizAnswers/QuizAnswers.jsx";
+
 export function QuizPage() {
     return (
         <div>

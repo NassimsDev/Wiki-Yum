@@ -1,4 +1,4 @@
-import "./QuizHeader.css";
+import "./QuizAnswers.css";
 
 // On utilise les props { image, titre } pour que le composant soit réutilisable
 export function QuizHeader({ image, titre }) {
