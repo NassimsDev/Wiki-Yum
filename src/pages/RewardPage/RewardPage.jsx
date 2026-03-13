@@ -9,7 +9,7 @@ export function RewardPage() {
         <div className="reward-container">
             <header className="header-reward">
                 <h1 className="bravo-title">Bravo !</h1>
-                
+
                 <div className="dishes-row">
                      <img src={dish1} alt="plat informatique" className="small-dish" />
                      <img src={dish2} alt="plat joconde" className="main-dish" />
