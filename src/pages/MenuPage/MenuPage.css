@@ -1,0 +1,33 @@
+.menu-container {
+  background-color: #E9E0DB; 
+  min-height: 100vh; 
+  max-width: 393px; 
+  margin: 0 auto;
+  padding: 3rem 1rem; 
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 27px;
+  gap: 28px;
+}
+
+.atable-button {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #2D2D2D;
+  height: 58px; 
+  padding: 0 32px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: 2px solid #2D2D2D;
+  border-radius: 50px;
+  box-shadow: 4px 4px 0px #2D2D2D; 
+  cursor: pointer;
+  margin-top: 30px; 
+  transition: all 0.2s ease;
+}

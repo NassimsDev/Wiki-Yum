@@ -1,0 +1,55 @@
+main {
+  width: 100vw;
+  height: 100vh;
+  background-color: #e9e0db;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.box-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.box-page__image-group {
+  position: relative;
+}
+
+.box-page__bell {
+  max-width: 221px;
+  z-index: 10;
+  position: relative;
+}
+
+.box-page__star {
+  position: absolute;
+  z-index: 11;
+}
+
+.box-page__star--large {
+  bottom: 32px;
+  right: 13px;
+}
+
+.box-page__star--big {
+  width: 80px;
+  top: 18px;
+  right: 149px;
+}
+
+.box-page__star--medium {
+  width: 52px;
+  bottom: 194px;
+  right: 8px;
+}
+
+.box-page__star--small {
+  width: 38px;
+  bottom: 227px;
+  left: 57px;
+}

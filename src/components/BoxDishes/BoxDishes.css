@@ -1,0 +1,35 @@
+.box-dishes {
+  position: absolute;
+  bottom: 5px;
+  z-index: 9;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.box-dishes__plate {
+  width: 99%;
+}
+
+.box-dishes__item {
+  position: absolute;
+}
+
+.box-dishes__item--left {
+  width: 109px;
+  left: 10px;
+  bottom: 30px;
+}
+
+.box-dishes__item--top {
+  width: 74px;
+  top: -25px;
+  right: 50px;
+}
+
+.box-dishes__item--right {
+  width: 83px;
+  bottom: 40px;
+  right: 20px;
+}
