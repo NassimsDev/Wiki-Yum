@@ -1,0 +1,22 @@
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.text-description {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.highlight {
+    background: #7D8DEC;
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 5px 4px 0px 0px  #2B2424;
+}
+
+h3 {
+    font-size: 30px;
+}
