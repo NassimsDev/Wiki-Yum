@@ -20,6 +20,9 @@ export function BoxPage() {
     boxList.push(key)
   }
 
+  // Initialisation navigate
+  const navigate = useNavigate()
+
   // Étiquettes pour GSAP
   const bellRef = useRef(null)
   const dishesRef = useRef(null)
@@ -64,6 +67,35 @@ export function BoxPage() {
     })
   })
 
+  // Animation clic
+  const handleOpenClick = () => {
+    const tl = gsap.timeline({
+      onComplete: () => {
+        navigate(`/menu/${boxList[0]}`)
+      },
+    })
+
+    // Animation Bell soulève
+    tl.to(bellRef.current, {
+      y: -150,
+      rotation: 25,
+      duration: 0.8,
+      ease: "power2.out",
+    })
+
+      // Animation plats
+      .to(
+        dishesRef.current,
+        {
+          scale: 1,
+          opacity: 1,
+          duration: 0.6,
+          ease: "back.out(1.5)",
+        },
+        "-=0.4",
+      )
+  }
+
   return (
     <main>
       <div className="box-page">
@@ -81,7 +113,7 @@ export function BoxPage() {
         </div>
 
         <div ref={btnRef}>
-          <ButtonLink text="Ouvrir" destination={`/menu/${boxList[0]}`}></ButtonLink>
+          <ButtonLink text="Ouvrir" action={handleOpenClick}></ButtonLink>
         </div>
       </div>
     </main>
