@@ -1,9 +1,16 @@
+body {
+    background-color: #E9E0DB; 
+    margin: 0; 
+    padding: 0;
+    font-family: 'Manrope', sans-serif; 
+}
+
 header {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 42px;
+    gap: 40px;
 }
 
 .top-description {
@@ -15,15 +22,22 @@ header {
 }
 
 h1 {
+    font-family: 'EightiesComeback', serif; /* La belle police du titre */
     font-size: 60px;
+    color: #2B2424;
+    margin: 0;
 }
 
 span {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
     font-size: 18px;
-    padding: 10px 20px 10px 20px;
-    border: inset 2px #2B2424;
+    padding: 10px 20px;
+    border: 2px solid #2B2424; 
     border-radius: 10px;
-    background-color: #7D8DEC;
+    color: #2B2424;
+    background-color: yellow;
+    
 }
 
 
@@ -31,6 +45,7 @@ span {
 .image-dish {
     width: 148px;
     height: 132px;
+    object-fit: contain;
 }
 
 .image-wiki {

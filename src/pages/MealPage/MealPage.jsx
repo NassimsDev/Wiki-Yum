@@ -7,7 +7,7 @@ import "./MealPage.css"
 import data from "../../data/boxes-data.json"
 
 
-export function MealPage() {
+export function MealPage({title, text, background}) {
     const { box, course } = useParams()
     const meal = data.box[box][course]
     const titles = ["Entrée","Plat","Dessert"]
@@ -26,7 +26,7 @@ export function MealPage() {
         theme={meal.theme}
         />
         <MealContent title={meal.title} text={meal.description} />
-        <MealContent title="Anecdote" text={meal.anecdote} background={true} />
+        <MealContent title="Anecdote" text={meal.anecdote} background={true} theme={meal.theme} />
         <ButtonLink destination={link} text="Encore faim ?" > </ButtonLink>
         </div>
     )

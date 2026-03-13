@@ -11,5 +11,5 @@ export function MealHeader({imageDish, title, theme, imageWikipedia, alt}) {
             </div>
             <img className="image-wiki" src={imageWikipedia} alt={alt}/>
         </header>
-    )
+    )   
 }

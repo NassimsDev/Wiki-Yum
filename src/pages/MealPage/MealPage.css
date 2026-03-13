@@ -8,3 +8,36 @@
 p {
     font-size: 22px;
 }
+/* c'est réglé section */
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 24px; 
+}
+/* c'est réglé h3 */
+h3 {
+    font-family: 'EightiesComeback', serif; 
+    font-size: 34px;
+    color: #2B2424;
+    margin: 0;
+}
+
+
+
+
+
+/* Le texte normal (Ours soldat, etc.) */
+.text-description p {
+    font-family: 'Manrope', sans-serif;
+    font-size: 22px;
+    line-height: 1.9;
+    color: #2B2424;
+    margin: 0;
+}
+
+.highlight {
+    border-radius: 16px;
+    padding: 24px;
+    border: 2px solid #2B2424; 
+    box-shadow: 5px 5px 0px 0px #2B2424; 
+}
