@@ -23,7 +23,7 @@ export function MenuPage() {
           />
         )
       })}
-      <ButtonLink destination={`/zoom/${box}/entry`} text="Commencer" />
+      <ButtonLink destination={`/zoom/${box}/entry`} text="À table !" />
     </div>
   )
 }

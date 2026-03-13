@@ -1,12 +1,16 @@
-import styles from './MenuSection.module.css'
-
+import React from 'react';
+import './MenuSection.css';
 export function MenuSection({ type, image, theme, question }) {
   return (
-    <div className={styles.menuSection}>
-      <img src={image} alt="" className={styles.sectionImage} />
-      <h2 className={styles.sectionTitle}>{type}</h2>
-      <span className={styles.themeBadge}>{theme}</span>
-      <p className={styles.questionText}>{question}</p>
+    <div className="menuSection">
+      <img src={image} alt="" className="sectionImage" />
+
+      <div className="titleContainer">
+         <h2 className="sectionTitle">{type}</h2>
+         <span className="themeBadge">{theme}</span>
+      </div>
+      <p className="questionText">{question}</p>
+      
     </div>
   )
 }
