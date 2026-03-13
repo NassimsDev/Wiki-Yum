@@ -1,24 +1,33 @@
-// import { QuizAnswers } from "../../components/QuizAnswers/QuizzAnswers";
-// import { QuizHeader } from "../../components/QuizHeader/QuizzHeader";
+import { useParams } from "react-router-dom";
+import { QuizHeader } from "../../components/QuizHeader/QuizHeader.jsx";
+import { QuizAnswers } from "../../components/QuizAnswers/QuizAnswers.jsx";
 import data from "../../data/boxes-data.json";
 import "./Quiz.css";
 
-const currentBox = data.box.mystery.entry;
-const question = currentBox.quiz.question;
-const allAnswers = currentBox.quiz.answers;
-const imgSrc = currentBox.imageDish;
+export function QuizPage() {
+    // 1. On récupère le nom de la box via l'URL (ex: /quiz/mystery)
+    const { box } = useParams();
 
+    // 2. On accède aux données dynamiquement en utilisant la variable 'box'
+    // On cible .entry car le quiz est lié à l'entrée de la box
+    const currentBox = data.box[box].entry;
 
-// La page Quiz
+    // 3. Extraction des données du JSON
+    const questionTitre = currentBox.quiz.question;
+    const reponses = currentBox.quiz.answers;
+    const imageAffiche = currentBox.imageDish;
 
-export function Quiz() {
     return (
         <main className="Quiz-Container">
-            <QuizHeader />
+            {/* 4. Utilisation du Header avec les props nommées comme ta camarade */}
+            <QuizHeader imageDish={imageAffiche} title={questionTitre} />
 
-            {allAnswers.map((ans, index) => (
-                <QuizAnswers key={index}>{ans.text}</QuizAnswers>
-            ))}
+            {/* 5. Boucle sur les réponses avec la prop 'text' */}
+            <div className="Quiz-Answers-List">
+                {reponses.map((ans, index) => (
+                    <QuizAnswers key={index} text={ans.text} />
+                ))}
+            </div>
         </main>
     );
 }

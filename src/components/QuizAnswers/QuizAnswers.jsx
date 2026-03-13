@@ -1,11 +1,9 @@
 import "./QuizAnswers.css";
 
-// On utilise les props { image, titre } pour que le composant soit réutilisable
-export function QuizHeader({ image, titre }) {
+export function QuizAnswers({ text }) {
     return (
-        <div className="Quiz-Header">
-            <img src={image} alt="Illustration de la question" />
-            <h1>{titre}</h1>
+        <div className="Quiz-Answers">
+            <button className="quiz-answer-button">{text}</button>
         </div>
     );
 }
