@@ -1,11 +1,20 @@
+body {
+    background-color: #E9E0DB; 
+    margin: 0;
+    padding: 0;
+}
+
 .header-zoom {
-    height: 100vh;
+    margin-top: 112px;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 40px;
-    gap: 52px;
+    gap: 77px;
+    box-sizing: border-box;
+    margin-bottom: 113px;
 }
 
 .div-container {
@@ -17,20 +26,30 @@
 }
 
 h1 {
-    font-size: 60px;
-}
-
-short-question {
     text-align: center;
     font-size: 26px;
+    font-family: 'EightiesComeback', serif;
+    max-width: 450px;
+    margin: 0;
+}
+
+.short-question {
+    text-align: center;
+    font-size: 26px;
+    max-width: 380px;     
+    line-height: 1.4;     
+    margin: 0 auto;
+    
 }
 
 span {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
     font-size: 18px;
-    padding: 10px 20px 10px 20px;
-    border: inset 2px #2B2424;
+    padding: 10px 20px;
+    border: 2px solid #2B2424; 
     border-radius: 10px;
-    background-color: #7D8DEC;
+    background-color: #EED143; 
 }
 
 
@@ -38,5 +57,6 @@ span {
 .image-dish {
     width: 148px;
     height: 132px;
+    object-fit: contain;
 }
 

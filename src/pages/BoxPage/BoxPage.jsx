@@ -6,8 +6,8 @@ import { useNavigate } from "react-router-dom"
 import gsap from "gsap"
 import { useGSAP } from "@gsap/react"
 
-import bell from "../../assets/img/bell.png"
-import starPink from "../../assets/img/star-pink.png"
+import bell from "/img/bell.png"
+import starPink from "/img/star-pink.png"
 import data from "../../data/boxes-data.json"
 
 import { ButtonLink } from "../../components/ButtonLink/ButtonLink"
