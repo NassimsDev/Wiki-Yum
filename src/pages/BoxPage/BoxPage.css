@@ -24,14 +24,6 @@ main {
   max-width: 221px;
   z-index: 10;
   position: relative;
-
-  transform-origin: right bottom;
-  transition: transform 0.6s ease-out;
-}
-
-/* animation de la cloche */
-.box-page__bell:hover {
-  transform: translateY(-150px) rotate(25deg);
 }
 
 .box-page__star {

@@ -25,4 +25,3 @@ export function ButtonLink({ text, destination, action, variante = "" }) {
     </button>
   )
 }
-
