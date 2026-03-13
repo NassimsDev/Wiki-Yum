@@ -1,0 +1,19 @@
+body {
+    font-family: "Manrope", sans-serif;
+    background-color: #e9e0db;
+}
+
+.Quiz-Container {
+    width: 90%;
+    max-width: 450px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+    /* box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); */
+    text-align: center;
+}
+
+.Quiz-Container h1 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
