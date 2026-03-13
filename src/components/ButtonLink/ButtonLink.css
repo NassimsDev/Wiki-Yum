@@ -1,0 +1,45 @@
+/*LE BLOC (Ce qui fait que c'est un bouton) */
+.btn {
+  border-radius: 100px;
+  border: 2px solid #221f1f;
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #221f1f;
+  padding: 10px 40px;
+  box-shadow: 5px 4px 0 0 #221f1f;
+  background-color: #e9e0db;
+
+  transition: all 0.1s;
+  outline: none;
+  cursor: pointer;
+}
+.btn:active {
+  box-shadow: 0px 0px 0px 0px #221f1f;
+  transform: translate(4px, 4px);
+}
+
+/* LES MODIFICATEURS */
+
+/* Modificateur 1 : Le bouton réponse classique */
+.btn--reponse {
+  padding: 16px 40px;
+  width: 100%;
+  font-size: 16px;
+}
+
+/* Modificateur 2 : La bonne réponse (Vert) */
+.btn--reponse--correct {
+  background-color: #78bf90;
+  width: 100%;
+  font-size: 16px;
+  padding: 16px 40px;
+}
+
+/* Modificateur 3 : La mauvaise réponse (Rouge) */
+.btn--reponse--erreur {
+  background-color: #d7524d;
+  width: 100%;
+  font-size: 16px;
+  padding: 16px 40px;
+}
