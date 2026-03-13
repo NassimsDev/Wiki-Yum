@@ -16,17 +16,13 @@ export function RewardPage() {
                      <img src={dish3} alt="plat ours" className="small-dish" />
                 </div>
 
-                <p className="reward-text">
-                    Tu as répondu correctement à toutes les questions !
-                </p>
-            </header>
+        <p className="reward-text">Tu as répondu correctement à toutes les questions !</p>
+      </header>
 
-            <main className="reward-main">
-                <h2 className="gain-title">Tu as gagné</h2>
-                <div className="xp-badge">
-                    +10XP
-                </div>
-            </main>
-        </div>
-    );
+      <main className="reward-main">
+        <h2 className="gain-title">Tu as gagné</h2>
+        <div className="xp-badge">+10XP</div>
+      </main>
+    </div>
+  )
 }

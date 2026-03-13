@@ -15,7 +15,7 @@ export function QuizPage() {
 
   console.log("meal ->", meal)
 
-  const link = course === "dessert" ? "/box" : `/quiz/${box}/${courses[meal.id + 1]}`
+  const link = course === "dessert" ? `/reward/${box}` : `/quiz/${box}/${courses[meal.id + 1]}`
 
   console.log("LINK", link)
 
