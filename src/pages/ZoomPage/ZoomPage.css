@@ -1,62 +1,57 @@
 body {
-    background-color: #E9E0DB; 
-    margin: 0;
-    padding: 0;
+  background-color: #e9e0db;
+  margin: 0;
+  padding: 0;
 }
 
 .header-zoom {
-    margin-top: 112px;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 40px;
-    gap: 77px;
-    box-sizing: border-box;
-    margin-bottom: 113px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  gap: 77px;
+  box-sizing: border-box;
 }
 
 .div-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:center;
-    gap:22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
 }
 
 h1 {
-    text-align: center;
-    font-size: 26px;
-    font-family: 'EightiesComeback', serif;
-    max-width: 450px;
-    margin: 0;
+  text-align: center;
+  font-size: 26px;
+  font-family: "EightiesComeback", serif;
+  max-width: 450px;
+  margin: 0;
 }
 
 .short-question {
-    text-align: center;
-    font-size: 26px;
-    max-width: 380px;     
-    line-height: 1.4;     
-    margin: 0 auto;
-    
+  text-align: center;
+  font-size: 26px;
+  max-width: 380px;
+  line-height: 1.4;
+  margin: 0 auto;
 }
 
 span {
-    font-family: 'Manrope', sans-serif;
-    font-weight: 600;
-    font-size: 18px;
-    padding: 10px 20px;
-    border: 2px solid #2B2424; 
-    border-radius: 10px;
-    background-color: #EED143; 
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: 2px solid #2b2424;
+  border-radius: 10px;
+  background-color: #eed143;
 }
-
 
 /* images */
 .image-dish {
-    width: 148px;
-    height: 132px;
-    object-fit: contain;
+  width: 148px;
+  height: 132px;
+  object-fit: contain;
 }
-
