@@ -51,7 +51,7 @@ On pourra retrouver un QR code sur toutes les pages afin faciliter l'accès à l
 *  **Framework :** React.js pour la structure de l'application.
 *  **Déploiement :** Netlify pour la mise en ligne du service.
 *  **Gestion de version :** Git (Repository GitHub).
-*  **Design :** Approche UX/UI optimisée pour un usage mobile.
+*  **Design :** Approche UX/UI sur Figma optimisée pour un usage mobile.
 
 ---
 ## 🎨 Design 
